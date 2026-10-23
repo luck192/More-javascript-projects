@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background:#bbc6fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background: #fff;
+    width: 50%;
+    max-width: 600px;
+    height: 35%;
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px black;
+    padding: 30px;
+    text-align: center;
+    gap:20px;
+}
+h1{
+    font-size:2.8rem ;
+}
+h1 span{
+    border-bottom: 3px solid rgb(43, 46, 226);
+}
+.quote{
+    /* border: 2px solid black; */
+    height:250px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+  
+}
+
+#author{
+   /* border: 2px solid black;   */
+   padding-left: 60%;
+   font-size: 1.5rem;
+   padding-right: 20px; 
+}
+#newQuote{
+    padding: 20px 25px;
+    border-radius: 30px;
+    border: 1px solid rgb(23, 124,229);
+    outline: none;
+    background: rgb(23, 124,229);
+    color:#fff;
+    cursor: pointer;
+}
+#postbutton{
+    padding: 20px 35px ;
+    border-radius: 30px;
+    border: 1px solid rgb(23, 124,229);
+    outline: none;
+    background: #fff;
+    color:black;
+    background-image:url('linkedin-logo.webp');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position-y: calc(12px);
+    background-position-x: calc(5px);
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:10px;
+    
+}
